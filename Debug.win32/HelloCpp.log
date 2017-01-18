@@ -1,0 +1,41 @@
+﻿Сборка начата 11.01.2017 13:39:04.
+     1>Проект "V:\Project\Marackesh\wordgame_start_0.2\proj.win32\HelloCpp.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         V:\Visual Studio\VC\bin\CL.exe /c /IV:\Project\Marackesh\wordgame_start_0.2\cocos2d\cocos\2d\..\..\cocos\audio\include /IV:\Project\Marackesh\wordgame_start_0.2\cocos2d\cocos\2d\..\..\external /IV:\Project\Marackesh\wordgame_start_0.2\cocos2d\cocos\2d\..\..\external\chipmunk\include\chipmunk /IV:\Project\Marackesh\wordgame_start_0.2\cocos2d\cocos\2d\..\..\extensions /I..\Classes /I.. /I"V:\Project\Marackesh\wordgame_start_0.2\cocos2d\cocos\2d\..\..\cocos\editor-support" /IV:\Project\Marackesh\wordgame_start_0.2\cocos2d\cocos\2d\..\..\cocos /IV:\Project\Marackesh\wordgame_start_0.2\cocos2d\cocos\2d\..\..\cocos\platform /IV:\Project\Marackesh\wordgame_start_0.2\cocos2d\cocos\2d\..\..\cocos\platform\desktop /IV:\Project\Marackesh\wordgame_start_0.2\cocos2d\cocos\2d\..\..\external\glfw3\include\win32 /I"V:\Project\Marackesh\wordgame_start_0.2\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /IV:\Project\Marackesh\wordgame_start_0.2\cocos2d\cocos\2d\..\..\external\freetype2\include\win32\freetype2 /IV:\Project\Marackesh\wordgame_start_0.2\cocos2d\cocos\2d\..\..\external\freetype2\include\win32\ /IV:\Project\Marackesh\wordgame_start_0.2\cocos2d\cocos\2d\..\..\external /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug.win32\\" /Fd"Debug.win32\vc140.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp ..\Classes\HelloWorldScene.cpp
+         AppDelegate.cpp
+         HelloWorldScene.cpp
+     1>v:\project\marackesh\wordgame_start_0.2\classes\appdelegate.cpp(54): warning C4305: аргумент: усечение из "double" к "float"
+     1>v:\project\marackesh\wordgame_start_0.2\classes\helloworldscene.cpp(114): warning C4305: аргумент: усечение из "double" к "float"
+     1>v:\project\marackesh\wordgame_start_0.2\classes\helloworldscene.cpp(121): warning C4305: аргумент: усечение из "double" к "float"
+     1>v:\project\marackesh\wordgame_start_0.2\classes\helloworldscene.cpp(145): warning C4305: аргумент: усечение из "double" к "float"
+     1>v:\project\marackesh\wordgame_start_0.2\classes\helloworldscene.cpp(187): warning C4305: аргумент: усечение из "double" к "float"
+     1>v:\project\marackesh\wordgame_start_0.2\classes\helloworldscene.cpp(194): warning C4305: аргумент: усечение из "double" к "float"
+     1>v:\project\marackesh\wordgame_start_0.2\classes\helloworldscene.cpp(459): warning C4305: аргумент: усечение из "double" к "float"
+     1>v:\project\marackesh\wordgame_start_0.2\classes\helloworldscene.cpp(462): warning C4305: аргумент: усечение из "double" к "float"
+     1>v:\project\marackesh\wordgame_start_0.2\classes\helloworldscene.cpp(519): warning C4305: аргумент: усечение из "double" к "float"
+     1>v:\project\marackesh\wordgame_start_0.2\classes\helloworldscene.cpp(522): warning C4305: аргумент: усечение из "double" к "float"
+       Link:
+         V:\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"V:\Project\Marackesh\wordgame_start_0.2\proj.win32\Debug.win32\HelloCpp.exe" /INCREMENTAL /NOLOGO /LIBPATH:V:\Project\Marackesh\wordgame_start_0.2\proj.win32\Debug.win32\ /LIBPATH:V:\Project\Marackesh\wordgame_start_0.2\proj.win32\Debug.win32\ opengl32.lib glew32.lib libzlib.lib libwebp.lib libiconv.lib freetype.lib winmm.lib ws2_32.lib libbox2d.lib libSpine.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"V:\Project\Marackesh\wordgame_start_0.2\proj.win32\Debug.win32\HelloCpp.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"V:\Project\Marackesh\wordgame_start_0.2\proj.win32\Debug.win32\HelloCpp.lib" /MACHINE:X86 /SAFESEH Debug.win32\game.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\Assam.obj
+         Debug.win32\Carpet.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\Player.obj
+         Debug.win32\Tile.obj
+         Debug.win32\main.obj
+         V:\Project\Marackesh\wordgame_start_0.2\proj.win32\Debug.win32\libcocos2d.lib
+         V:\Project\Marackesh\wordgame_start_0.2\proj.win32\Debug.win32\libSpine.lib
+         V:\Project\Marackesh\wordgame_start_0.2\proj.win32\Debug.win32\libbox2d.lib
+         HelloCpp.vcxproj -> V:\Project\Marackesh\wordgame_start_0.2\proj.win32\Debug.win32\HelloCpp.exe
+       CustomBuildStep:
+         if not exist "V:\Project\Marackesh\wordgame_start_0.2\proj.win32\Debug.win32\" mkdir "V:\Project\Marackesh\wordgame_start_0.2\proj.win32\Debug.win32\"
+         xcopy "V:\Project\Marackesh\wordgame_start_0.2\proj.win32\..\Resources" "V:\Project\Marackesh\wordgame_start_0.2\proj.win32\Debug.win32\" /D /E /I /F /Y
+               
+         :VCEnd
+         V:\Project\Marackesh\wordgame_start_0.2\Resources\tail_size -> V:\Project\Marackesh\wordgame_start_0.2\proj.win32\Debug.win32\tail_size
+         Скопировано файлов: 1.
+     1>Сборка проекта "V:\Project\Marackesh\wordgame_start_0.2\proj.win32\HelloCpp.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:07.22
